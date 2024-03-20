@@ -28,7 +28,7 @@ public class CampingMainController {
 	public List<Map<String,Object>> hi1() {
 		
 
-		List<Map<String,Object>> list = myService.doSomeDatabaseOperation();
+		List<Map<String,Object>> list = myService.getTop10Region();
 		return list;
 	}
 	

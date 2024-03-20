@@ -20,4 +20,8 @@ public class MyService {
         return myRepository.getAllData();
         // 다른 데이터베이스 작업들을 수행할 수 있습니다.
     }
+    
+    public List<Map<String, Object>> getTop10Region(){
+    	return myRepository.getTop10Region();
+    }
 }
